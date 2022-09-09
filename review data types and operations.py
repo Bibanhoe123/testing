@@ -30,14 +30,14 @@ def ques3():
     brekminuteint=int(brekminute)
     print(f'{brekhourint}:{brekminuteint}')
     #print(tempotime)
-#ques3()
+ques3()
 def exercise4():
     r=7.25/100/12
     p=111000
     payments=30*12
     mortgpaymentmonth=(r/1-(1+r)**-payments)*p*-1
     print(f'{mortgpaymentmonth:.2f}$')
-exercise4()
+#exercise4()
 
 
 
