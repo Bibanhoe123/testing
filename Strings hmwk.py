@@ -41,9 +41,20 @@
 #     print("yes it is a palindrome")
 # else: print("nope")
 def exercise3(a,b):
-    for i in range(0,len(a),1):
-        
+    l = []
+    i=0
+    for i in a:
+        c = (ord(i))+b
+        if c >= 122:
+            new = c-122
+            new+=97
+            l.append(new)
+        l.append(c)
+        for i in l:
+            done = chr(i)
+        print(done)
 
 
 a = input("pls enter a word to rotate ")
 b =  int(input("pls enter a nuber of the amount of times you would like to rotate it over a number"))
+exercise3(a,b)
