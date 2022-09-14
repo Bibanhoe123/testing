@@ -43,18 +43,16 @@
 def exercise3(a,b):
     l = []
     i=0
+    phrase=""
     for i in a:
-        c = (ord(i))+b
+        d = (ord(i))
+        c = d+b
         if c >= 122:
-            new = c-122
-            new+=97
-            l.append(new)
-        l.append(c)
-        for i in l:
-            done = chr(i)
-        print(done)
+            c = c-122+97
+        phrase += chr(c)
+    return c
 
 
 a = input("pls enter a word to rotate ")
 b =  int(input("pls enter a nuber of the amount of times you would like to rotate it over a number"))
-exercise3(a,b)
+print(exercise3(a,b))
