@@ -1,5 +1,5 @@
 import random
-<<<<<<< HEAD
+
 #fix later
 def exercise1(adict):
     numbers = {}
@@ -21,12 +21,11 @@ def exercise1(adict):
 
 
 randdict = {}
-exercise1(randdict)
+#exercise1(randdict)
 def exercise2(dict):
     date = ""
 def exercise3():
     counter = 0
-=======
 # #fix later
 # def exercise1(adict):
 #     randomnums = []
@@ -56,14 +55,14 @@ def exercise2():
     year =85
     monthtonum= {"JAN": 1, "FEB" :2,"MAR":3,"APR":4,"MAY": 5, "JUN" :6,"JUL":7,"AUG":8,"SEP": 9, "OCT" :10,"NOV":11,"DEC":12}
 def exercise3():
->>>>>>> f39f957ee117e73d1bc7fce5022e3b5f0576e9ee
+
     morse = {
         "A": ".-", "B": "-...", "C": "-.-.", "D": "-..", "E": ".", "F": "..-.", "G": "--.", "H": "....", "I": "..",
         "J": ".---", "K": "-.-", "L": ".-..", "M": "--", "N": "-.", "O": "---", "P": ".--.", "Q": "--.-", "R": ".-.",
         "S": "...", "T": "-", "U": "..-", "V": "...-", "W": ".--", "X": "-..-", "Y": "-.--", "Z": "--..", "0": "-----",
         "1": ".----", "2": "..---", "3": "...--", "4": "....-", "5": ".....", "6": "-....", "7": "--...", "8": "---..",
         "9": "----.", ".": ".-.-.-", ",": "--..--", " ": " "}
-<<<<<<< HEAD
+
     newmorse = {}
     entermorse = (".... ..- -- .--. - -.--   -.. ..- -- .--. - -.--   ... .- -   --- -.   .-   .-- .- .-.. .-.. .-.-.- .... ..- -- .--. - -.--   -.. ..- -- .--. - -.--   .... .- -..   .-   --. .-. . .- -   ..-. .- .-.. .-.. .-.-.- .- .-.. .-..   - .... .   -.- .. -. --. ...   .... --- .-. ... . ...   .- -. -..   .- .-.. .-..   - .... .   -.- .. -. --. ...   -- . -. .-.-.- -.-. --- ..- .-.. -.. -. -   .--. ..- -   .... ..- -- .--. - -.--   - --- --. . - .... . .-.   .- --. .- .. -. .-.-.- ")
     listenter = entermorse.split()
@@ -75,18 +74,21 @@ def exercise3():
         pass#print(newmorse[i],end =" " )
 
 #exercise3()
-def exercise4():
-    keys = [3.98, 0.97, 2.97, 3.99, 3.98, 1.98, 3.98, 1.98, 1.98, 3.98, 2.98, 2.99, 3.97, 0.97, 1.99, 0.98, 0.97, 3.99, 2.99, 3.97, 3.99, 0.98, 3.97, 1.98, 2.99, 1.97, 2.98, 1.97, 0.98, 2.97, 3.97, 0.99, 1.97, 2.97, 2.99, 1.98, 0.98, 1.98, 1.97, 1.98, 2.99, 1.97, 0.98, 0.97, 1.99, 3.97, 2.99, 0.99, 3.98, 3.97, 3.97, 1.99, 3.97, 3.98, 1.98, 2.99, 2.97, 3.97, 3.99, 3.98, 3.99, 2.97, 0.97, 0.99, 1.97, 0.97, 2.99, 3.99, 0.99, 2.97, 0.98, 3.97, 1.99, 0.99, 1.97, 0.97, 0.97, 2.99, 0.99, 0.97, 3.97, 1.99, 2.98, 3.97, 3.99]
-    values = ['advil', 'aspirin', 'antacids', 'antibiotic ointment', 'anti-bacerial toweletters', 'automotive repair kits','baking tin', 'bandages', 'bandannas', 'baking soda', 'lighters', 'boxed food', 'bungee cords', 'cable ties','camping fuel', 'candles', 'canned fruits', 'canned meat', 'canned veggies', 'can openers', 'car towels', 'chewing gum', 'clothesline', 'coffee filters', 'combs', 'compact mirror', 'condiments', 'cotton balls', 'cokkie tins', 'cough drops', 'cutting boards', 'dental floss', 'digital thermometer', 'dish towels', 'dog food', 'duct tape', 'drop cloth', 'ear plugs', 'elastic hair bands', 'emergency cell phone chargers', 'epsom salts', 'eyeglass repair kit', 'facial tissues', 'gauze', 'gardening globes', 'hard candies', 'hydrogen peroxide', 'hand sanitizer', 'jarred foods', 'instant ice packs', 'knives', 'latex dishwashing gloves', 'lip balms', 'lotions', 'magnifying glass', 'matches', 'mesh laundry bag', 'nails', 'screws', 'plastic shoe container','rubbing alcohol', 'safety pins', 'salt with iodine', 'scrub buddies', 'sewing kit', 'shoe laces', 'soaps', 'socks', 'solar lights', 'spices', 'stell wool', 'sponges', 'sugar', 'super glue', 'sun hat', 'toothbrushes', 'tote bags', 'travel bottles', 'twine', 'utility pail', 'water', 'wet wipes']
-    products = dict(zip(keys, values))
-    print(products)
+# def exercise4():
+#     products = {}
+#     prices = [3.98, 0.97, 2.97, 3.99, 3.98, 1.98, 3.98, 1.98, 1.98, 3.98, 2.98, 2.99, 3.97, 0.97, 1.99, 0.98, 0.97, 3.99, 2.99, 3.97, 3.99, 0.98, 3.97, 1.98, 2.99, 1.97, 2.98, 1.97, 0.98, 2.97, 3.97, 0.99, 1.97, 2.97, 2.99, 1.98, 0.98, 1.98, 1.97, 1.98, 2.99, 1.97, 0.98, 0.97, 1.99, 3.97, 2.99, 0.99, 3.98, 3.97, 3.97, 1.99, 3.97, 3.98, 1.98, 2.99, 2.97, 3.97, 3.99, 3.98, 3.99, 2.97, 0.97, 0.99, 1.97, 0.97, 2.99, 3.99, 0.99, 2.97, 0.98, 3.97, 1.99, 0.99, 1.97, 0.97, 0.97, 2.99, 0.99, 0.97, 3.97, 1.99, 2.98, 3.97, 3.99]
+#     stuff = ['advil', 'aspirin', 'antacids', 'antibiotic ointment', 'anti-bacerial toweletters', 'automotive repair kits','baking tin', 'bandages', 'bandannas', 'baking soda', 'lighters', 'boxed food', 'bungee cords', 'cable ties','camping fuel', 'candles', 'canned fruits', 'canned meat', 'canned veggies', 'can openers', 'car towels', 'chewing gum', 'clothesline', 'coffee filters', 'combs', 'compact mirror', 'condiments', 'cotton balls', 'cokkie tins', 'cough drops', 'cutting boards', 'dental floss', 'digital thermometer', 'dish towels', 'dog food', 'duct tape', 'drop cloth', 'ear plugs', 'elastic hair bands', 'emergency cell phone chargers', 'epsom salts', 'eyeglass repair kit', 'facial tissues', 'gauze', 'gardening globes', 'hard candies', 'hydrogen peroxide', 'hand sanitizer', 'jarred foods', 'instant ice packs', 'knives', 'latex dishwashing gloves', 'lip balms', 'lotions', 'magnifying glass', 'matches', 'mesh laundry bag', 'nails', 'screws', 'plastic shoe container','rubbing alcohol', 'safety pins', 'salt with iodine', 'scrub buddies', 'sewing kit', 'shoe laces', 'soaps', 'socks', 'solar lights', 'spices', 'stell wool', 'sponges', 'sugar', 'super glue', 'sun hat', 'toothbrushes', 'tote bags', 'travel bottles', 'twine', 'utility pail', 'water', 'wet wipes']
+#     for i in range (len(prices)):
+#         if i >= len(stuff):
+#
+#
+#         prices[i] = 0
+#     print(products)
+# #exercise4()
+
+
+
     #
-    # for key in prices:
-    #     products[key] = 0 #ask her
-    # print(products)
-    #
-    # for key, value in products:
-    #     zip(prices,stuff)
     #
     #     sample_dict = {}
     #     keys = ['John', 'Mark', 'Aadi']
@@ -102,7 +104,45 @@ def exercise4():
     #     pass
 
 def exercise5():
-    pass
+    d = {}
+    d1= 0
+    d2 = 0
+    for i in range (7):
+        d1 = i
+
+        for j in range(7):
+            d2 = j
+            tuple = (i,j)
+    for i in range(13):
+        d[i] = 0
+    #print(d)
+        for i in d:
+            d[i] = tuple
+        print(d)
+
+exercise5()
+#     d = {}
+#     Loop
+#     with d1 from 1 to 6
+#     Loop
+#     with d2 from 1 to 6
+#     new_tuple ← (d1, d2)  # create the tuple
+#     sum ← d1 + d2
+#     d[sum] = new_tuple
+#
+#
+# Loop
+# over
+# all
+# values in the
+# dictionary
+# print
+# the
+# key and the
+# length
+# of
+# the
+# list
 
 
 
@@ -135,16 +175,6 @@ def exercise5():
         # search_age = input("Provide age")
         # for name, age in dictionary.items():  # for name, age in dictionary.iteritems():  (for Python 2.x)
         #     if age == search_age:
-        #         print(name)
-=======
-    key = morse.keys()
-    morse = morse.values()
-
-    entermorse = input("provide morse")
-    for key , morses in morse.items():
-        if morse = entermorse
-            print(key)
->>>>>>> f39f957ee117e73d1bc7fce5022e3b5f0576e9ee
 
 
         # dictionary = {'george': 16, 'amber': 19}
@@ -153,7 +183,6 @@ def exercise5():
         #     if age == search_age:
         #         print(name)
 
-<<<<<<< HEAD
 
 # dicts = {}
 # keys = range(4)
@@ -162,5 +191,4 @@ def exercise5():
 #         dicts[i] = values[i]
 # print(dicts)
 
-=======
->>>>>>> f39f957ee117e73d1bc7fce5022e3b5f0576e9ee
+
